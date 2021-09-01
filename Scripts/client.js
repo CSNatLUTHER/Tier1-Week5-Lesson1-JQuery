@@ -7,7 +7,6 @@ function onReady(){
     showText();
     $( '#getTextButton' ).on( 'click', getText );
     $( '#hideTextButton').on( 'click', hideNow );
-    // $( '#showTextButton').on( 'click', showNow );
 } // end onReady
 
 function showText( textToShow ){
@@ -34,18 +33,6 @@ function hideNow(){
     else if($('#hideTextButton').text() === 'Hide Text'){
         $( '#hideTextButton').text('Show Text'); 
     }
-   
-   
-
-    // $( '#hideTextButton').attr('id','showTextButton');
-    // $( '#hider' ).attr('id','shower')
-    // $( '#hider' ).attr('style', '')
 };
-// function showNow(){
-//     $( '#shower' ).slideDown ( 1000 );
-//     $( '#showTextButton').text('Hide Text');
-//     $( '#showTextButton').attr('id','hideTextButton');
-//     $( '#shower' ).attr('id','hider')
-//     $( '#hider' ).attr('style', 'display:all')
-// };
+
 
